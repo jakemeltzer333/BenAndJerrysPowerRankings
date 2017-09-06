@@ -28,6 +28,13 @@ Flavor.create!(name: 'Chocolate Fudge Brownie', base_flavor: 'Chocolate', descri
 Flavor.create!(name: 'Americone Dream', base_flavor: 'Vanilla', description: 'Vanilla Ice Cream with Fudge Covered Waffle Cone Pieces & a Caramel Swirl', category: regular, picture_url:'http://www.benjerry.com/files/live/sites/systemsite/files/flavors/products/us/pint/americone-dream-detail.png')
 Flavor.create!(name: 'Smores', base_flavor: 'Chocolate', description: 'Chocolate Ice Cream with Fudge Chunks, Toasted Marshmallow & Graham Cracker Swirls', category: regular, picture_url: 'http://www.benjerry.com/files/live/sites/systemsite/files/flavors/products/us/pint/smores-detail.png')
 
+# Fro-Yo Flavors
+
+Flavor.create!(name: 'Half Baked', base_flavor: 'Chocolate, Vanilla', description: 'Chocolate & Vanilla Low Fat Frozen Yogurts mixed with Gobs of Chocolate Chip Cookie Dough & Fudge Brownies', category: fro_yo, picture_url: 'http://www.benjerry.com/files/live/sites/systemsite/files/flavors/products/us/pint/half-baked-foryo-detail.png')
+Flavor.create!(name: 'Phish Food', base_flavor: 'Chocolate', description: 'Chocolate Frozen Yogurt with Gooey Marshmallow Swirls, Caramel Swirls & Fudge Fish', category: fro_yo, picture_url: 'http://www.benjerry.com/files/live/sites/systemsite/files/flavors/products/us/pint/phish-food-froyo-detail.png')
+Flavor.create!(name: 'Chocolate Fudge Brownie', base_flavor: 'Chocolate', description: 'Chocolate Low Fat Frozen Yogurt with Fudge Brownies', category: fro_yo, picture_url: 'http://www.benjerry.com/files/live/sites/systemsite/files/flavors/products/us/pint/choc-fudge-brownie-froyo-detail.png')
+
+
 # Core Flavors
 
 Flavor.create!(name: 'Peanut Butter Fudge Core', base_flavor: 'Chocolate, Peanut Butter', description: 'Chocolate & Peanut Butter Ice Creams with Mini Peanut Butter Cups & a Peanut Butter Fudge Core', category: core, picture_url: 'http://www.benjerry.com/files/live/sites/systemsite/files/flavors/products/us/pint/peanut-butter-fudge-detail.png')
@@ -41,10 +48,4 @@ Flavor.create!(name: 'Spectacular Speculoos Cookie Core', base_flavor: 'Caramel,
 Flavor.create!(name: 'P.B. & Cookies', base_flavor: 'Vanilla', description: 'Vanilla non-dairy frozen dessert with chocolate sandwich cookies & crunchy peanut butter swirls', category: non_dairy, picture_url: 'http://www.benjerry.com/files/live/sites/systemsite/files/flavors/products/us/pint/pb-and-cookies-non-dairy-detail.png')
 Flavor.create!(name: 'Chocolate Fudge Brownie', base_flavor: 'Chocolate', description: 'Chocolate non-dairy frozen dessert with fudge brownies', category: non_dairy, picture_url: 'http://www.benjerry.com/files/live/sites/systemsite/files/flavors/products/us/pint/chocolate-fudge-brownie-non-dairy-detail.png')
 Flavor.create!(name: 'Caramel Almond Brittle', base_flavor: 'Almond', description: 'Almond Non Dairy Frozen Dessert with salted caramel swirls & pieces of almond brittle', category: non_dairy, picture_url: 'http://www.benjerry.com/files/live/sites/systemsite/files/flavors/products/us/pint/caramel-almond-brittle-non-dairy-detail.png')
-
-# Fro-Yo Flavors
-
-Flavor.create!(name: 'Half Baked', base_flavor: 'Chocolate, Vanilla', description: 'Chocolate & Vanilla Low Fat Frozen Yogurts mixed with Gobs of Chocolate Chip Cookie Dough & Fudge Brownies', category: fro_yo, picture_url: 'http://www.benjerry.com/files/live/sites/systemsite/files/flavors/products/us/pint/half-baked-foryo-detail.png')
-Flavor.create!(name: 'Phish Food', base_flavor: 'Chocolate', description: 'Chocolate Frozen Yogurt with Gooey Marshmallow Swirls, Caramel Swirls & Fudge Fish', category: fro_yo, picture_url: 'http://www.benjerry.com/files/live/sites/systemsite/files/flavors/products/us/pint/phish-food-froyo-detail.png')
-Flavor.create!(name: 'Chocolate Fudge Brownie', base_flavor: 'Chocolate', description: 'Chocolate Low Fat Frozen Yogurt with Fudge Brownies', category: fro_yo, picture_url: 'http://www.benjerry.com/files/live/sites/systemsite/files/flavors/products/us/pint/choc-fudge-brownie-froyo-detail.png')
 
