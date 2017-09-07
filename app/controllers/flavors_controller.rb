@@ -9,7 +9,13 @@ class FlavorsController < ApplicationController
     end
 
     def create
-        
+        flavor = params['flavor']
+        @category = Category.find(params[:category_id])
+        Flavor.create(name: flavor[name],
+                        base_flavor: flavor[base_flavor],
+                        description: flavor[description],
+                        picture_url: flavor[picture_url])
+        redirect_to category_path(@category)                  
     end
 
     def destroy
