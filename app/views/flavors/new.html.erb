@@ -1,0 +1,16 @@
+
+<%= form_for :flavor, method: 'post', url: {action: 'create'} do |f| %>
+    <%= label(:flavor, :name) %>
+    <%= f.text_field :name %>
+    <br>
+    <%= label(:flavor, :base_flavor) %>
+    <%= f.text_field :base_flavor %>
+    <br>
+    <%= label(:flavor, :description) %>
+    <%= f.text_field :description %>
+    <br>
+    <%= label(:flavor, :picture_url) %>
+    <%= f.text_field :picture_url %>
+    <br>
+    <%= f.submit %>
+<% end %>    
