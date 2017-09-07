@@ -5,6 +5,6 @@
 <h1><%= @flavor.name %> </h1>
 <h3><%= @flavor.base_flavor %></h3>
 <p><%= @flavor.description %></h3>
-
+<br>
 <%= link_to "Delete Flavor", category_flavor_path(params[:category_id], params[:id]), method: 'delete' %><br>
-<%= link_to "Flavors", category_path(params[:category_id]) %>
+<%= link_to "Back to Flavors", category_path(params[:category_id]) %>
