@@ -1,3 +1,5 @@
+<h1><%= @category.name %> Flavors</h1>
+
 <ol>
     <% @flavors.each do |flavor| %>
         <li> <%= link_to flavor.name, category_flavor_path(@category, flavor) %></li>
