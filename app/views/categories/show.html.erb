@@ -1,6 +1,6 @@
 <ol>
     <% @flavors.each do |flavor| %>
-        <li> <%= link_to flavor.name %></li>
+        <li> <%= link_to flavor.name, category_flavor_path(@category, flavor) %></li>
     <% end %>    
 </ol>
 
