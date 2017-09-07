@@ -4,6 +4,7 @@ class CategoriesController < ApplicationController
     end
 
     def show
+        @category = Category.find(params[:id])
         @flavors = Flavor.where(category_id: params[:id])
     end
 end
