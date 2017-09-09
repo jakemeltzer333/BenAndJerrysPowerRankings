@@ -86,23 +86,35 @@ body {
  }
 
  .description {
-     font-size: 18px;
+     font-size: 22px;
      color: #fffdd0;
      font-family: "Chewy", cursive;
  }
 
+ .form {
+     padding: 10px;
+ }
+
  .input {
      font-size: 20px;
-     background-color: purple;
+     background-color: #ff00ff;
+     padding: 5px;
+     margin-top: 20px;
  }
 
  .label {
      font-size: 25px;
      color: #fffdd0;
      font-family: "Chewy", cursive;
+     padding: 5px;
  }
 
  .submit {
      font-size: 25px;
      font-family: "Chewy", cursive;
+     border: 3px solid #fffdd0;
+     color: #fffdd0;
+     padding: 5px;
+     margin-top: 20px;
+     background-color: #ff00ff;
  }
