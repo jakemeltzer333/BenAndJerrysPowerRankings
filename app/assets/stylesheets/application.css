@@ -13,6 +13,14 @@
  *= require_tree .
  *= require_self
  */
+body {
+    min-height: 100vh;
+    background: -webkit-linear-gradient(left top, rgb(67, 214, 240), rgb(66, 187, 240), rgb(64, 149, 229), rgb(55, 116, 199));
+    background: -o-linear-gradient(bottom right,rgb(67, 214, 240), rgb(66, 187, 240), rgb(64, 149, 229), rgb(55, 116, 199));
+    background: -moz-linear-gradient(bottom right, rgb(67, 214, 240), rgb(66, 187, 240), rgb(64, 149, 229), rgb(55, 116, 199));
+    background: linear-gradient(to bottom right, rgb(67, 214, 240), rgb(66, 187, 240), rgb(64, 149, 229), rgb(55, 116, 199));
+}
+
 
  .categories-container, .flavors-container, .single-flavor {
      display: flex;
@@ -21,32 +29,60 @@
      justify-content: center;
  }
 
+ .header-container, .footer-container {
+     font-family: "Chewy", cursive;
+ }
+
+ .header {
+     font-size: 60px;
+     color: #fffdd0;
+ }
+
+ .footer {
+    color: #fffdd0; 
+ }
+
  .categories {
      list-style: none;
  }
 
  .category, .flavor {
      font-size: 25px;
-     padding: 15px;
+     padding: 20px;
+     color: #fffdd0;
  }
 
  .edit {
      font-size: 20px;
+     color: #fffdd0;
  }
 
  .links {
      font-size: 20px;
      padding: 20px;
+     color: #fffdd0;
  }
 
  .categories-back {
      font-size: 25px;
+     color: #fffdd0;
+ }
+
+ .flavor-name, .flavor-header {
+     font-family: 'Chewy', cursive;
+     font-size: 45px;
+     color: #fffdd0;
  }
 
  .base-flavor {
      font-size: 20px;
+     font-family: 'Chewy', cursive;
+     color: #fffdd0;
  }
 
  .description {
      font-size: 18px;
+     color: #fffdd0;
  }
+
+ 
