@@ -1,11 +1,14 @@
+<div class = 'single-flavor'>
 
+<%= image_tag @flavor.picture_url, class: 'flavor-image' %>
 
-<%= image_tag @flavor.picture_url %>
-
-<h1><%= @flavor.name %> </h1>
-<h3><%= @flavor.base_flavor %></h3>
-<p><%= @flavor.description %></h3>
+<h1 class = 'flavor-name'><%= @flavor.name %> </h1>
+<h3 class = 'base-flavor'><%= @flavor.base_flavor %></h3>
+<p class = 'description'><%= @flavor.description %></h3>
 <br>
 
+<div class = 'links'>
 <%= link_to "Back to Flavors", category_path(params[:category_id]) %><br>
 <%= link_to "Delete Flavor", category_flavor_path(params[:category_id], params[:id]), method: 'delete' %>
+</div>
+</div>
