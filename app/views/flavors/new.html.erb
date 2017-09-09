@@ -1,19 +1,19 @@
 <div class = 'add-form-container'>
 <%= render 'header' %>
 <%= form_for :flavor, method: 'post', url: {action: 'create'} do |f| %>
-    <%= label(:flavor, :name) %>
-    <%= f.text_field :name %>
+    <%= label(:flavor, :name, class: 'label') %> &nbsp;
+    <%= f.text_field :name, class: 'input' %>
     <br>
-    <%= label(:flavor, :base_flavor) %>
-    <%= f.text_field :base_flavor %>
+    <%= label(:flavor, :base_flavor, class: 'label') %> &nbsp;
+    <%= f.text_field :base_flavor, class: 'input' %>
     <br>
-    <%= label(:flavor, :description) %>
-    <%= f.text_field :description %>
+    <%= label(:flavor, :description, class: 'label') %> &nbsp;
+    <%= f.text_field :description, class: 'input' %>
     <br>
-    <%= label(:flavor, :picture_url) %>
-    <%= f.text_field :picture_url %>
+    <%= label(:flavor, :picture_url, class: 'label') %> &nbsp;
+    <%= f.text_field :picture_url, class: 'input' %>
     <br>
-    <%= f.submit %>
+    <%= f.submit class: 'submit' %>
 <% end %> 
 
 <%= render 'footer' %>
