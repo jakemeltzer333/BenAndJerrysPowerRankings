@@ -19,6 +19,18 @@ class FlavorsController < ApplicationController
         redirect_to category_path(@category)                  
     end
 
+    def update
+        flavor = params["flavor"]
+        @category = Category.find(params[:category_id])
+        Flavor.update(params[:id],
+                        name: flavor["name"],
+                        base_flavor: flavor["base_flavor"],
+                        description: flavor["description"],
+                        picture_url: flavor["picture_url"],
+                        category_id: @category["id"])
+        redirect_to category_path(@category)
+    end
+
     def destroy
         @category = Category.find(params[:category_id])
         Flavor.destroy(params[:id])
