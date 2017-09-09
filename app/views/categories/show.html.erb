@@ -1,16 +1,18 @@
 <div class = 'flavors-container'>
+<%= render 'header' %>
 <h1 class = 'flavor-header'><%= @category.name %> Flavors</h1>
 
 <ol class = 'flavors-list'>
     <% @flavors.each do |flavor| %>
         <li class = 'flavor'> <%= link_to flavor.name, category_flavor_path(@category, flavor) %></li>
-        <%= link_to "Edit Flavor", edit_category_flavor_path(@category, flavor) %>
+        <%= link_to "Edit Flavor", edit_category_flavor_path(@category, flavor), :class => 'edit' %>
     <% end %>    
 </ol>
 
 <div class = 'links'>
-<%= link_to "Add New Flavor", new_category_flavor_path(params[:id]) %><br>
+<%= link_to "Add New Flavor", new_category_flavor_path(params[:id], :class => 'add-flavor') %><br>
 
-<%= link_to "Flavor Categories", categories_path %>
+<%= link_to "Flavor Categories", categories_path, :class => 'categories-back' %>
 </div>
+<%= render 'footer' %>
 </div>

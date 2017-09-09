@@ -1,5 +1,5 @@
 <div class = 'single-flavor'>
-
+<%= render 'header' %>
 <%= image_tag @flavor.picture_url, class: 'flavor-image' %>
 
 <h1 class = 'flavor-name'><%= @flavor.name %> </h1>
@@ -11,4 +11,5 @@
 <%= link_to "Back to Flavors", category_path(params[:category_id]) %><br>
 <%= link_to "Delete Flavor", category_flavor_path(params[:category_id], params[:id]), method: 'delete' %>
 </div>
+<%= render 'footer' %>
 </div>

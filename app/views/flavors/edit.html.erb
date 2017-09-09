@@ -1,3 +1,5 @@
+<div class = 'edit-form-container'>
+<%= render 'header' %>
 <%= form_for :flavor, method: 'patch', url: {action: 'update'} do |f| %>
     <%= label(:flavor, :name) %>
     <%= f.text_field :name %>
@@ -12,4 +14,7 @@
     <%= f.text_field :picture_url %>
     <br>
     <%= f.submit %>
-<% end %> 
+<% end %>
+
+<%= render 'footer' %>
+</div>
