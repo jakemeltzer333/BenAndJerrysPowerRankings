@@ -1,7 +1,9 @@
+<div class = 'categories-container'>
 <h1>Ben & Jerry's Power Rankings!</h1>
 
-<ul>
+<ul class = 'categories'>
 <% @categories.each do |category| %>
-    <li><%= link_to category.name, category_path(category) %></li>    
+    <li class = 'category'><%= link_to category.name, category_path(category) %></li>    
 <% end %>
-</ul>    
+</ul>
+</div>    
