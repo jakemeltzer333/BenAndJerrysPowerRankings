@@ -1,6 +1,6 @@
 <div class = 'edit-form-container'>
 <%= render 'header' %>
-<%= form_for :flavor, method: 'patch', url: {action: 'update'} do |f| %>
+<%= form_for :flavor, method: 'patch', url: {action: 'update'}, html: {class: 'form'} do |f| %>
     <%= label(:flavor, :name, class: 'label') %> &nbsp;
     <%= f.text_field :name, class: 'input' %>
     <br>

@@ -1,6 +1,6 @@
 <div class = 'add-form-container'>
 <%= render 'header' %>
-<%= form_for :flavor, method: 'post', url: {action: 'create'} do |f| %>
+<%= form_for :flavor, method: 'post', url: {action: 'create'}, html: {class: 'form'} do |f| %>
     <%= label(:flavor, :name, class: 'label') %> &nbsp;
     <%= f.text_field :name, class: 'input' %>
     <br>
