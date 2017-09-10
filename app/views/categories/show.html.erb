@@ -5,6 +5,7 @@
 <ol class = 'flavors-list'>
     <% @flavors.each do |flavor| %>
         <li class = 'flavor'> <%= link_to flavor.name, category_flavor_path(@category, flavor) %></li>
+        <%= image_tag flavor.picture_url, class: 'flavor-image' %> <br>
         <%= link_to "Edit Flavor", edit_category_flavor_path(@category, flavor), :class => 'edit' %>
     <% end %>    
 </ol>
