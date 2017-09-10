@@ -132,6 +132,7 @@ body {
      color: #fffdd0;
      font-family: "Chewy", cursive;
      padding: 5px;
+     text-shadow: 3px 3px #ff00ff;
  }
 
  .submit {
