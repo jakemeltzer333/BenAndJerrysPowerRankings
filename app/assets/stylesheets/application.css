@@ -37,10 +37,19 @@ body {
      font-size: 60px;
      color: #fffdd0;
      text-decoration: underline;
+     text-shadow: 3px 3px #ff00ff;
+ }
+
+ .sub-header {
+     color: #fffdd0;
+     font-size: 30px;
+     text-align: center;
+     text-shadow: 3px 3px #ff00ff;
  }
 
  .footer {
     color: #fffdd0; 
+    text-shadow: 3px 3px #ff00ff;
  }
 
  .categories {
@@ -52,6 +61,7 @@ body {
      padding: 20px;
      color: #fffdd0;
      font-family: "Chewy", cursive;
+     text-shadow: 3px 3px #ff00ff;
  }
 
  .edit {
@@ -89,6 +99,7 @@ body {
      font-family: 'Chewy', cursive;
      font-size: 45px;
      color: #fffdd0;
+     text-shadow: 3px 3px #ff00ff;
  }
 
  .base-flavor {
