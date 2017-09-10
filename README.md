@@ -1,5 +1,7 @@
 # Ben & Jerry's Power Rankings
 
+![Ben & Jerry's Pic](http://c1590022.cdn.cloudfiles.rackspacecloud.com/01a2bf86b75974e7cb787b92f08ebe95.png)
+
 ## Description
 
 Ice cream is one of the things that brings me the most joy in this world, and the cavalcade of flavors authored by Ben and Jerry's over the years have brought me the most joy of any ice cream brand. Therefore, I decided that with my newfound knowledge of Ruby on Rails, I would create an app that would allow people to rank all their favorite flavors in the different categories: regular, core, fro-yo, and non-dairy ice creams. Users can add new flavors to their lists, delete others, and edit ones that they might want to put at a different place on their lists. In entertainment, people always say "write what you know," and with this app, I have taken that note and applied to computer programming.
@@ -28,4 +30,6 @@ Much like how at the bottom of the single flavor page, a user can redirect to th
 
 When I learn how it works in Rails, I would like to add authentication to the app so that each user's list can be customized individually.
 
-I also would like to add a brands table and possibly expand the app beyond just Ben & Jerry's so that people who may unfortunately be more passionate about other brands would be able to compile rankings of their favorite flavors from those brands as well.  
+I also would like to add a brands table and possibly expand the app beyond just Ben & Jerry's so that people who may unfortunately be more passionate about other brands would be able to compile rankings of their favorite flavors from those brands as well. 
+
+![Ice Cream Eating Gif](https://d3p157427w54jq.cloudfront.net/uploads/2016/02/Ice-Cream.gif) 
