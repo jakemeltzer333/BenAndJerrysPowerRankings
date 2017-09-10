@@ -58,6 +58,8 @@ body {
      font-size: 25px;
      color: #fffdd0;
      font-family: "Chewy", cursive;
+     display: inline-block;
+     padding: 10px;
  }
 
  .links {
@@ -68,9 +70,15 @@ body {
  }
 
  .categories-back {
-     font-size: 25px;
      color: #fffdd0;
      font-family: "Chewy", cursive;
+     display: inline-block;
+     padding: 15px;
+ }
+
+ .flavors-back {
+     display: inline-block;
+     padding: 15px;
  }
 
 .flavor-image {
